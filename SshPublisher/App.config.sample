@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+  </startup>
+  <appSettings>
+    <add key="RemoteHost" value="example.server.com" />
+    <add key="Username" value="YourUserName" />
+    <add key="PrivateKeyPath" value="C:\Path\To\Your\Private\Key\MyPrivateKey.pem" />
+    <add key="PrivateKeyPassphrase" value="MyPrivateKeyPassword" />
+    <add key="RemoteHostDestinationPath" value="/var/www/public_stuff" />
+    <!-- 
+      This one is optional, if specified, an URL composed of ClipboardUrlPrefix + filename will be set to clipboard
+      <add key="ClipboardUrlPrefix" value="http://pingec.si/public" />
+      -->
+  </appSettings>
+</configuration>
