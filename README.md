@@ -3,6 +3,8 @@ A small utility which helps me deploy files to a web server quickly with using j
 
 This is a cmd utility for uploading files via SSH using the SCP protocol with the main purpose to be used as a Windows Explorer context menu shortcut to make publishing files to the web quicker.
 
+Only key-based SSH authentication is implemented. The .pem file must be password protected.
+
 # Instructions
 0. Create App.config from App.config.sample
 		cp SshPublisher/App.config.sample SshPublisher/App.config
